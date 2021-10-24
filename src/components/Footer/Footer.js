@@ -9,7 +9,7 @@
 * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
-* Modified by thehansguy - Oct 2021
+* Modified by @thehansguy - Oct 2021
 
 =========================================================
 

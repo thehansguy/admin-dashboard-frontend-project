@@ -47,7 +47,7 @@ function Sidebar({ color, image, routes }) {
             </div>
           </a>
           <a className="simple-text" href="http://www.creative-tim.com">
-            KQMUC
+            School Management
           </a>
         </div>
         <Nav>
