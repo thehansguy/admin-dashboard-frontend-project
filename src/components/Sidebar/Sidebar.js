@@ -47,14 +47,14 @@ function Sidebar({ color, image, routes }) {
             </div>
           </a>
           <a className="simple-text" href="http://www.creative-tim.com">
-            School Management
+            School Management System
           </a>
         </div>
         <Nav>
           {routes.map((prop, key) => {
             if (!prop.redirect)
               return (
-                <li>
+                <li key={prop.id}>
                   <NavLink
                     to={prop.layout + prop.path}
                     className="nav-link"

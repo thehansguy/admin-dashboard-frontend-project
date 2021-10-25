@@ -15,7 +15,7 @@ import {
   Tooltip,
 } from "react-bootstrap";
 
-import TableList from "./TableList";
+import TableList1AddmissionApplicants from "./TableList1AdmissionApplicants";
 
 function Dashboard() {
   return (
@@ -23,7 +23,7 @@ function Dashboard() {
       <Container fluid>
         <Row>
           <Col md="12">
-            <TableList />
+            <TableList1AddmissionApplicants />
           </Col>
         </Row>
       </Container>

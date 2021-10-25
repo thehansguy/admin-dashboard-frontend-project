@@ -18,49 +18,57 @@
 */
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
-import TableList from "views/TableList.js";
-import Typography from "views/Typography.js";
-import Icons from "views/Icons.js";
-import Maps from "views/Maps.js";
-import Notifications from "views/Notifications.js";
-import Upgrade from "views/Upgrade.js";
+
+import TableList1AddmissionApplicants from "views/TableList1AdmissionApplicants";
+import TableList2Fees from "views/TableList2Fees";
+import TableList3Departments from "views/TableList3Departments";
+import TableList4Students from "views/TableList4Students";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
 
 const dashboardRoutes = [
   {
     path: "/dashboard",
-    name: "Admin Dashboard",
+    name: "Dashboard",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
     layout: "/admin",
   },
 
   {
-    path: "/table",
+    path: "/admission-applicants",
     name: "Applicants",
     icon: "nc-icon nc-notes",
-    component: TableList,
+    component: TableList1AddmissionApplicants,
     layout: "/admin",
   },
   {
-    path: "/typography",
+    path: "/departments",
     name: "Departments",
     icon: "nc-icon nc-paper-2",
-    component: Typography,
+    component: TableList3Departments,
     layout: "/admin",
   },
   {
-    path: "/icons",
+    path: "/academic-calendar",
     name: "Academic Calendar",
     icon: "nc-icon nc-atom",
-    component: Icons,
+    component: Calendar,
     layout: "/admin",
   },
 
   {
-    path: "/notifications",
+    path: "/fees",
     name: "Fees",
     icon: "nc-icon nc-bell-55",
-    component: Notifications,
+    component: TableList2Fees,
+    layout: "/admin",
+  },
+  {
+    path: "/students",
+    name: "Students",
+    icon: "nc-icon nc-bell-55",
+    component: TableList4Students,
     layout: "/admin",
   },
   {
