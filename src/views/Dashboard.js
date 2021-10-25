@@ -16,14 +16,20 @@ import {
 } from "react-bootstrap";
 
 import TableList1AddmissionApplicants from "./TableList1AdmissionApplicants";
+import TableList2Fees from "views/TableList2Fees";
+import TableList3Departments from "views/TableList3Departments";
+import TableList4Students from "views/TableList4Students";
 
 function Dashboard() {
   return (
     <>
       <Container fluid>
         <Row>
-          <Col md="12">
+          <Col md="8">
             <TableList1AddmissionApplicants />
+            <TableList2Fees />
+            <TableList3Departments />
+            <TableList4Students />
           </Col>
         </Row>
       </Container>
