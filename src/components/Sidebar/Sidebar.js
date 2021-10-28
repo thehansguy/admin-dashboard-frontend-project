@@ -54,8 +54,9 @@ function Sidebar({ color, image, routes }) {
           {routes.map((prop, key) => {
             if (!prop.redirect)
               return (
-                <li key={prop.id}>
+                <li>
                   <NavLink
+                    key={prop.id}
                     to={prop.layout + prop.path}
                     className="nav-link"
                     activeClassName="active"

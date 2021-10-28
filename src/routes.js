@@ -19,7 +19,7 @@
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 
-import TableList1AddmissionApplicants from "views/TableList1AdmissionApplicants";
+import TableList1AdmissionApplicants from "views/TableList1AdmissionApplicants";
 import TableList2Fees from "views/TableList2Fees";
 import TableList3Departments from "views/TableList3Departments";
 import TableList4Students from "views/TableList4Students";
@@ -39,7 +39,7 @@ const dashboardRoutes = [
     path: "/admission-applicants",
     name: "Applicants",
     icon: "fas fa-tasks",
-    component: TableList1AddmissionApplicants,
+    component: TableList1AdmissionApplicants,
     layout: "/admin",
   },
   {
