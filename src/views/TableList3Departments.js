@@ -32,7 +32,7 @@ function TableList() {
                     <tr>
                       <th className="border-0">ID</th>
                       <th className="border-0">Name</th>
-                      <th className="border-0">Salary</th>
+
                       <th className="border-0">Country</th>
                       <th className="border-0">City</th>
                     </tr>
@@ -41,7 +41,7 @@ function TableList() {
                     <tr>
                       <td>1</td>
                       <td>Minerva Hooper</td>
-                      <td>$23,789</td>
+
                       <td>Curaçao</td>
                       <td>Sinaai-Waas</td>
                     </tr>
