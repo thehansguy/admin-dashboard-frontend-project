@@ -165,9 +165,11 @@ function User() {
                       className="avatar border-gray"
                       src={require("assets/img/faces/face-8.jpg").default}
                     ></img>
-                    <h5 className="title">Mike Andrew</h5>
+                    <h5 className="title">Jefferyson Gidisu</h5>
                   </a>
-                  <p className="description">michael24</p>
+                  <p className="description">
+                    description yet to be added soon
+                  </p>
                 </div>
                 <p className="description text-center">
                   "Some brief description <br></br>

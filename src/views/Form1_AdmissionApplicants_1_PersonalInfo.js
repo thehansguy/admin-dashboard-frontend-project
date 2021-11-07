@@ -7,13 +7,59 @@ function Form1AdmissionApplicants_1_PersonalInfo() {
     <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
+        </Form.Group>
+      </Row>
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>First Name</Form.Label>
+          <Form.Control placeholder="First Name" />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Middle</Form.Label>
+          <Form.Control placeholder="Middle" />
+        </Form.Group>
+      </Row>
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
+        </Form.Group>
+      </Row>
+
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Application Reference</Form.Label>
+          <Form.Control placeholder="Application Reference" />
+        </Form.Group>
+      </Row>
+
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Application Payment Reference</Form.Label>
+          <Form.Control placeholder="Application Payment Reference" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Control placeholder="Password" />
         </Form.Group>
       </Row>
 
