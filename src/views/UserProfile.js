@@ -41,7 +41,6 @@ function User() {
                       <Form.Group>
                         <label>Username</label>
                         <Form.Control
-                          defaultValue="kqmuc-user"
                           placeholder="Username"
                           type="text"
                         ></Form.Control>
@@ -64,7 +63,7 @@ function User() {
                       <Form.Group>
                         <label>First Name</label>
                         <Form.Control
-                          defaultValue="Mike"
+                          defaultValue="Jefferyson"
                           placeholder="Company"
                           type="text"
                         ></Form.Control>
@@ -74,7 +73,7 @@ function User() {
                       <Form.Group>
                         <label>Last Name</label>
                         <Form.Control
-                          defaultValue="Andrew"
+                          defaultValue="Gidisu"
                           placeholder="Last Name"
                           type="text"
                         ></Form.Control>
@@ -86,7 +85,7 @@ function User() {
                       <Form.Group>
                         <label>Address</label>
                         <Form.Control
-                          defaultValue="201 Mansour, Ghana"
+                          defaultValue="Flag Staff House, Accra"
                           placeholder="Home Address"
                           type="text"
                         ></Form.Control>
