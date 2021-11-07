@@ -16,6 +16,10 @@ import {
   Tab,
   Form,
 } from "react-bootstrap";
+import Form1AdmissionApplicants_1_PersonalInfo from "./Form1_AdmissionApplicants_1_PersonalInfo";
+import Form1AdmissionApplicants_2_AcademicInfo from "./Form1_AdmissionApplicants_2_AcademicInfo";
+import Form1AdmissionApplicants_3_Sponsors from "./Form1_AdmissionApplicants_3_Sponsors";
+import Form1AdmissionApplicants_4_AttachedDocuments from "./Form1_AdmissionApplicants_4_AttachedDocuments";
 
 function TableList() {
   const [lgShow, setLgShow] = useState(false);
@@ -29,7 +33,7 @@ function TableList() {
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg">
-            Student Name
+            Kwame Brown
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -39,172 +43,16 @@ function TableList() {
             className="mb-3"
           >
             <Tab eventKey="personal-info" title="Personal Info">
-              <Form>
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" controlId="formGridAddress1">
-                  <Form.Label>Address</Form.Label>
-                  <Form.Control placeholder="1234 Main St" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formGridAddress2">
-                  <Form.Label>Address 2</Form.Label>
-                  <Form.Control placeholder="Apartment, studio, or floor" />
-                </Form.Group>
-
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridCity">
-                    <Form.Label>City</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>State</Form.Label>
-                    <Form.Control as="select" defaultValue="Choose...">
-                      <option>Choose...</option>
-                      <option>...</option>
-                    </Form.Control>
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Zip</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" id="formGridCheckbox">
-                  {/* <Form.Check type="checkbox" label="Check me out" /> */}
-                </Form.Group>
-
-                <Button variant="success" type="submit">
-                  Admit
-                </Button>
-                <Button variant="danger" type="submit">
-                  Reject
-                </Button>
-              </Form>
+              <Form1AdmissionApplicants_1_PersonalInfo />
             </Tab>
             <Tab eventKey="academic-info" title="Academic Info">
-              <Form>
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" controlId="formGridAddress1">
-                  <Form.Label>Address</Form.Label>
-                  <Form.Control placeholder="1234 Main St" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formGridAddress2">
-                  <Form.Label>Address 2</Form.Label>
-                  <Form.Control placeholder="Apartment, studio, or floor" />
-                </Form.Group>
-
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridCity">
-                    <Form.Label>City</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>State</Form.Label>
-                    <Form.Control as="select" defaultValue="Choose...">
-                      <option>Choose...</option>
-                      <option>...</option>
-                    </Form.Control>
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Zip</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" id="formGridCheckbox">
-                  {/* <Form.Check type="checkbox" label="Check me out" /> */}
-                </Form.Group>
-
-                <Button variant="success" type="submit">
-                  Admit
-                </Button>
-                <Button variant="danger" type="submit">
-                  Reject
-                </Button>
-              </Form>
+              <Form1AdmissionApplicants_2_AcademicInfo />
             </Tab>
-            <Tab eventKey="contact" title="Contact">
-              <Form>
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" controlId="formGridAddress1">
-                  <Form.Label>Address</Form.Label>
-                  <Form.Control placeholder="1234 Main St" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formGridAddress2">
-                  <Form.Label>Address 2</Form.Label>
-                  <Form.Control placeholder="Apartment, studio, or floor" />
-                </Form.Group>
-
-                <Row className="mb-3">
-                  <Form.Group as={Col} controlId="formGridCity">
-                    <Form.Label>City</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>State</Form.Label>
-                    <Form.Control as="select" defaultValue="Choose...">
-                      <option>Choose...</option>
-                      <option>...</option>
-                    </Form.Control>
-                  </Form.Group>
-
-                  <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Zip</Form.Label>
-                    <Form.Control />
-                  </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" id="formGridCheckbox">
-                  {/* <Form.Check type="checkbox" label="Check me out" /> */}
-                </Form.Group>
-
-                <Button variant="success" type="submit">
-                  Admit
-                </Button>
-                <Button variant="danger" type="submit">
-                  Reject
-                </Button>
-              </Form>
+            <Tab eventKey="sponsors" title="Sponsors">
+              <Form1AdmissionApplicants_3_Sponsors />
+            </Tab>
+            <Tab eventKey="attached-documents" title="Attached Documents">
+              <Form1AdmissionApplicants_4_AttachedDocuments />
             </Tab>
           </Tabs>
         </Modal.Body>
@@ -225,15 +73,15 @@ function TableList() {
                     <tr>
                       <th className="border-0">ID</th>
                       <th className="border-0">Name</th>
-                      <th className="border-0">Salary</th>
+                      <th className="border-0">Status</th>
                       <th className="border-0">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Dakota Rice</td>
-                      <td>$36,738</td>
+                      <td>Kwame Brown</td>
+                      <td>Pending Approval</td>
                       <td>
                         <Button onClick={() => setLgShow(true)}>View</Button>
                         <Button variant="warning">Edit</Button>
