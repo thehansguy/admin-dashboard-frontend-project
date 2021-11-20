@@ -15,10 +15,10 @@ import {
   Tooltip,
 } from "react-bootstrap";
 
-import TableList1AddmissionApplicants from "./TableList1AdmissionApplicants";
-import TableList2Fees from "views/TableList2Fees";
-import TableList3Departments from "views/TableList3Departments";
-import TableList4Students from "views/TableList4Students";
+import _1_AdmissionApplicants_Table from "views/Tables/_1_AdmissionApplicants";
+import _2_Fees_Table from "views/Tables/_2_Fees";
+import _3_Departments_Table from "views/Tables/_3_Departments";
+import _4_Students_Table from "views/Tables/_4_Students";
 
 function Dashboard() {
   return (
@@ -26,10 +26,10 @@ function Dashboard() {
       <Container fluid>
         <Row>
           <Col md="8">
-            <TableList1AddmissionApplicants />
-            <TableList2Fees />
-            <TableList3Departments />
-            <TableList4Students />
+            <_1_AdmissionApplicants_Table />
+            <_2_Fees_Table />
+            <_3_Departments_Table />
+            <_4_Students_Table />
           </Col>
         </Row>
       </Container>

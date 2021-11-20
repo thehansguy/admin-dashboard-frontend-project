@@ -1,0 +1,16 @@
+1. ...
+2. Setup Admission Applicants form using react bootstrap
+3. Form data should be editable and submittable to the data API
+4. View data should disable the form
+5. Edit data should enable the form
+6. Delete from id from api should working
+7. Add code comments for each functions description
+8. Restructure Dashboard to display Card or Button Links instead of tables
+9. Add pagination to table
+10. Add searching and sorting to table
+11. Validate the form
+
+Special Requests
+
+1. The students view info should include their photo
+2. Start working on Students Dashboard

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Yaba",
+    "status": "admitted"
+  },
+  {
+    "id": "2",
+    "name": "Louise",
+    "status": "admitted"
+  },
+  {
+    "id": "3",
+    "name": "Kiki",
+    "status": "admitted"
+  },
+  {
+    "id": "4",
+    "name": "Fawziya",
+    "status": "admitted"
+  },
+  {
+    "id": "5",
+    "name": "Yaa",
+    "status": "admitted"
+  },
+  {
+    "id": "6",
+    "name": "Kukua",
+    "status": "admitted"
+  }
+]

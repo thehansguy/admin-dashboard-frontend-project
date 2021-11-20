@@ -9,7 +9,7 @@
 * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
-* Modified by thehansguy - Oct 2021
+* Modified by @thehansguy - Oct 2021
 
 =========================================================
 
@@ -19,10 +19,10 @@
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 
-import TableList1AdmissionApplicants from "views/TableList1AdmissionApplicants";
-import TableList2Fees from "views/TableList2Fees";
-import TableList3Departments from "views/TableList3Departments";
-import TableList4Students from "views/TableList4Students";
+import _1_AdmissionApplicants from "views/Tables/_1_AdmissionApplicants";
+import _2_Fees from "views/Tables/_2_Fees";
+import _3_Departments from "views/Tables/_3_Departments";
+import _4_Students from "views/Tables/_4_Students";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 
@@ -39,14 +39,14 @@ const dashboardRoutes = [
     path: "/admission-applicants",
     name: "Applicants",
     icon: "fas fa-tasks",
-    component: TableList1AdmissionApplicants,
+    component: _1_AdmissionApplicants,
     layout: "/admin",
   },
   {
     path: "/departments",
     name: "Departments",
     icon: "far fa-building",
-    component: TableList3Departments,
+    component: _3_Departments,
     layout: "/admin",
   },
   {
@@ -61,14 +61,14 @@ const dashboardRoutes = [
     path: "/fees",
     name: "Fees",
     icon: "fas fa-wallet",
-    component: TableList2Fees,
+    component: _2_Fees,
     layout: "/admin",
   },
   {
     path: "/students",
     name: "Students",
     icon: "fas fa-graduation-cap",
-    component: TableList4Students,
+    component: _4_Students,
     layout: "/admin",
   },
   {

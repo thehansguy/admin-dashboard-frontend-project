@@ -1,25 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 // react-bootstrap components
 import { Button, Row, Col, Form } from "react-bootstrap";
 
-function Form1AdmissionApplicants_1_PersonalInfo() {
+function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
+  const [user, setUser] = useState({
+    userId: "",
+    title: "",
+    body: "",
+  });
+
+  const handleChange = (event) => {
+    setUser({
+      ...user,
+      [event.target.name]: event.target.value,
+    });
+  };
+  const handleAdmit = (event) => {
+    event.preventDefault();
+    setModalStatus(false);
+    console.log("user admitted", user);
+    axios
+      .post("https://jsonplaceholder.typicode.com/posts", user)
+      .then((response) => {
+        console.log(response);
+      });
+  };
+  const handleReject = (event) => {};
   return (
     <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Application Payment Reference</Form.Label>
-          <Form.Control placeholder="Application Payment Reference" />
+          <Form.Label>User ID</Form.Label>
+          <Form.Control
+            type="text"
+            name="userId"
+            onChange={handleChange}
+            placeholder="placeholder"
+          />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Application Payment Reference</Form.Label>
-          <Form.Control placeholder="Application Payment Reference" />
+          <Form.Label>Title</Form.Label>
+          <Form.Control
+            type="text"
+            name="title"
+            onChange={handleChange}
+            placeholder="placeholder"
+          />
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>First Name</Form.Label>
-          <Form.Control placeholder="First Name" />
+          <Form.Label>Body</Form.Label>
+          <Form.Control
+            type="text"
+            name="body"
+            onChange={handleChange}
+            placeholder="placeholder"
+          />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
@@ -194,10 +233,10 @@ function Form1AdmissionApplicants_1_PersonalInfo() {
         {/* <Form.Check type="checkbox" label="Check me out" /> */}
       </Form.Group>
       <br />
-      <Button variant="success" type="submit">
+      <Button variant="success" type="submit" onClick={handleAdmit}>
         Admit
       </Button>
-      <Button variant="danger" type="submit">
+      <Button variant="danger" type="submit" onClick={handleReject}>
         Reject
       </Button>
     </Form>
