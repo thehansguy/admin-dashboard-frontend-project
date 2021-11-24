@@ -19,10 +19,10 @@
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 
-import _1_AdmissionApplicants from "views/Tables/_1_AdmissionApplicants";
-import _2_Fees from "views/Tables/_2_Fees";
-import _3_Departments from "views/Tables/_3_Departments";
-import _4_Students from "views/Tables/_4_Students";
+import _1_AdmissionApplicants_Table from "views/forApiData/viewAll/_1_AdmissionApplicants_Table";
+import _2_Fees_Table from "views/forApiData/viewAll/_2_Fees_Table";
+import _3_Departments_Table from "views/forApiData/viewAll/_3_Departments_Table";
+import _4_Students_Table from "views/forApiData/viewAll/_4_Students_Table";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 
@@ -39,14 +39,14 @@ const dashboardRoutes = [
     path: "/admission-applicants",
     name: "Applicants",
     icon: "fas fa-tasks",
-    component: _1_AdmissionApplicants,
+    component: _1_AdmissionApplicants_Table,
     layout: "/admin",
   },
   {
     path: "/departments",
     name: "Departments",
     icon: "far fa-building",
-    component: _3_Departments,
+    component: _3_Departments_Table,
     layout: "/admin",
   },
   {
@@ -61,14 +61,14 @@ const dashboardRoutes = [
     path: "/fees",
     name: "Fees",
     icon: "fas fa-wallet",
-    component: _2_Fees,
+    component: _2_Fees_Table,
     layout: "/admin",
   },
   {
     path: "/students",
     name: "Students",
     icon: "fas fa-graduation-cap",
-    component: _4_Students,
+    component: _4_Students_Table,
     layout: "/admin",
   },
   {

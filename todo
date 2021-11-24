@@ -1,14 +1,12 @@
 1. ...
-2. Setup Admission Applicants form using react bootstrap
-3. Form data should be editable and submittable to the data API
-4. View data should disable the form
-5. Edit data should enable the form
-6. Delete from id from api should working
-7. Add code comments for each functions description
-8. Restructure Dashboard to display Card or Button Links instead of tables
-9. Add pagination to table
-10. Add searching and sorting to table
-11. Validate the form
+2. Setup form submission
+3. Create and Setup view applicant pages
+4. Create and Setup edit applicant pages
+5. Setup delete button/ function
+6. Setup add new applicant button/function
+7. validate form
+8. Setup view, edit, delete and add new linking
+9. Setup a data table that allows pagination and sorting for dashboard tables
 
 Special Requests
 

@@ -1,35 +1,30 @@
 import React from "react";
 // react-bootstrap components
-import {
-  Badge,
-  Button,
-  Card,
-  Navbar,
-  Nav,
-  Table,
-  Container,
-  Row,
-  Col,
-  Form,
-  OverlayTrigger,
-  Tooltip,
-} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-import _1_AdmissionApplicants_Table from "views/Tables/_1_AdmissionApplicants";
-import _2_Fees_Table from "views/Tables/_2_Fees";
-import _3_Departments_Table from "views/Tables/_3_Departments";
-import _4_Students_Table from "views/Tables/_4_Students";
+import AdmissionsLinkCard from "views/forDashboard/AdmissionsLinkCard";
+import FeesLinkCard from "views/forDashboard/FeesLinkCard";
+import DepartmentsLinkCard from "views/forDashboard/DepartmentsLinkCard";
+import StudentsLinkCard from "views/forDashboard/StudentsLinkCard";
 
 function Dashboard() {
   return (
     <>
       <Container fluid>
         <Row>
-          <Col md="8">
-            <_1_AdmissionApplicants_Table />
-            <_2_Fees_Table />
-            <_3_Departments_Table />
-            <_4_Students_Table />
+          <Col md="3">
+            <AdmissionsLinkCard />
+          </Col>
+          <Col md="3">
+            <FeesLinkCard />
+          </Col>
+
+          <Col md="3">
+            <DepartmentsLinkCard />
+          </Col>
+
+          <Col md="3">
+            <StudentsLinkCard />
           </Col>
         </Row>
       </Container>

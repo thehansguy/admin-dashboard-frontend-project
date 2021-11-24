@@ -37,6 +37,8 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
             name="userId"
             onChange={handleChange}
             placeholder="placeholder"
+            disabled
+            value="value"
           />
         </Form.Group>
 
@@ -47,6 +49,8 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
             name="title"
             onChange={handleChange}
             placeholder="placeholder"
+            disabled
+            value="value"
           />
         </Form.Group>
       </Row>
@@ -58,45 +62,51 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
             name="body"
             onChange={handleChange}
             placeholder="placeholder"
+            disabled
+            value="value"
           />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Middle</Form.Label>
-          <Form.Control placeholder="Middle" />
+          <Form.Control disabled value="value" placeholder="Middle" />
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Last Name</Form.Label>
-          <Form.Control placeholder="Last Name" />
+          <Form.Control disabled value="value" placeholder="Last Name" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Gender</Form.Label>
-          <Form.Control placeholder="Gender" />
+          <Form.Control disabled value="value" placeholder="Gender" />
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Date of birth</Form.Label>
-          <Form.Control placeholder="Date of birth" />
+          <Form.Control disabled value="value" placeholder="Date of birth" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Country</Form.Label>
-          <Form.Control placeholder="Country" />
+          <Form.Control disabled value="value" placeholder="Country" />
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control placeholder="Application Payment Reference" />
+          <Form.Control
+            disabled
+            value="value"
+            placeholder="Application Payment Reference"
+          />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Region</Form.Label>
-          <Form.Control placeholder="Password" />
+          <Form.Control disabled value="value" placeholder="Password" />
         </Form.Group>
       </Row>
       <hr />
@@ -105,11 +115,15 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
       <br />
       <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Address</Form.Label>
-        <Form.Control placeholder="1234 Main St" />
+        <Form.Control disabled value="value" placeholder="1234 Main St" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formGridAddress2">
         <Form.Label>Address 2</Form.Label>
-        <Form.Control placeholder="Apartment, studio, or floor" />
+        <Form.Control
+          disabled
+          value="value"
+          placeholder="Apartment, studio, or floor"
+        />
       </Form.Group>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridCity">
