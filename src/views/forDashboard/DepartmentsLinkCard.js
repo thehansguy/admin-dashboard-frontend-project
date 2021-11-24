@@ -3,10 +3,14 @@ import { Card, Button } from "react-bootstrap";
 
 const DepartmentsLinkCard = () => (
   <Card style={{ width: "18rem" }}>
-    <Card.Img variant="top" src="https://loremflickr.com/320/240" />
+    <Card.Img
+      variant="top"
+      src={require("assets/img/dashboard/departments.jpg").default}
+    />
     <Card.Body>
       <Card.Title>Departments</Card.Title>
-      <Card.Text></Card.Text>
+      <Card.Text>-Add/Update Courses</Card.Text>
+      <br />
       <Button variant="success">View Departments</Button>
     </Card.Body>
   </Card>

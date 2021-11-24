@@ -6,6 +6,8 @@ import AdmissionsLinkCard from "views/forDashboard/AdmissionsLinkCard";
 import FeesLinkCard from "views/forDashboard/FeesLinkCard";
 import DepartmentsLinkCard from "views/forDashboard/DepartmentsLinkCard";
 import StudentsLinkCard from "views/forDashboard/StudentsLinkCard";
+import StaffLinkCard from "views/forDashboard/StaffLinkCard";
+import AcademicCalendarLinkCard from "views/forDashboard/AcademicCalendarLinkCard";
 
 function Dashboard() {
   return (
@@ -25,6 +27,12 @@ function Dashboard() {
 
           <Col md="3">
             <StudentsLinkCard />
+          </Col>
+          <Col md="3">
+            <StaffLinkCard />
+          </Col>
+          <Col md="3">
+            <AcademicCalendarLinkCard />
           </Col>
         </Row>
       </Container>
