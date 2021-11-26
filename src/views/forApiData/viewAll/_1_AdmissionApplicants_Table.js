@@ -23,9 +23,6 @@ import "./styles.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 
-import BootstrapTable from "react-bootstrap-table-next";
-import paginationFactory from "react-bootstrap-table2-paginator";
-
 // custom components
 import _1_PersonalInfo_ViewSingle from "../forms/viewSingle/_1_PersonalInfo_ViewSingle";
 import _2_AcademicInfo_ViewSingle from "../forms/viewSingle/_2_AcademicInfo_ViewSingle";
@@ -36,38 +33,6 @@ import _1_PersonalInfo_Entry from "../forms/dataEntries/_1_PersonalInfo_Entry";
 import _2_AcademicInfo_Entry from "../forms/dataEntries/_2_AcademicInfo_Entry";
 import _3_Sponsors_Entry from "../forms/dataEntries/_3_Sponsors_Entry";
 import _4_AttachedDocuments_Entry from "../forms/dataEntries/_4_AttachedDocuments_Entry";
-
-import BootstrapTable2 from "../templates/BootstrapTable2";
-import SemanticUITable from "../templates/SemanticUITable";
-
-// import applicants from "../../Json/applicants.json";
-
-const productsGenerator = (quantity) => {
-  const items = [];
-  for (let i = 0; i < quantity; i++) {
-    items.push({ id: i, name: `Item name ${i}`, price: 2100 + i });
-  }
-  return items;
-};
-
-const products = productsGenerator(100);
-
-const columns = [
-  {
-    dataField: "id",
-    text: "ID",
-    sort: true,
-  },
-  {
-    dataField: "title",
-    text: "Title",
-    sort: true,
-  },
-  {
-    dataField: "body",
-    text: "body",
-  },
-];
 
 const TableList = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -138,9 +103,9 @@ const TableList = () => {
           >
             <Tab eventKey="personal-info" title="Personal Info">
               {!isEdit ? (
-                <BootstrapTable2 setModalStatus={setModalShow} />
+                <_1_PersonalInfo_ViewSingle setModalStatus={setModalShow} />
               ) : (
-                <BootstrapTable2 setModalStatus={setModalShow} />
+                <_1_PersonalInfo_Entry setModalStatus={setModalShow} />
               )}
             </Tab>
             <Tab eventKey="academic-info" title="Academic Info">
