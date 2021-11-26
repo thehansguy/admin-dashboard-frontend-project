@@ -22,28 +22,26 @@ function TableList() {
             <Card className="strpied-tabled-with-hover">
               <Card.Header>
                 <Card.Title as="h4">Department View Mode</Card.Title>
-                <p className="card-category">
-                  Here is a subtitle for this table
-                </p>
               </Card.Header>
               <Card.Body className="table-full-width table-responsive px-0">
                 <Table className="table-hover table-striped">
                   <thead>
                     <tr>
                       <th className="border-0">ID</th>
-                      <th className="border-0">Name</th>
-
-                      <th className="border-0">Country</th>
-                      <th className="border-0">City</th>
+                      <th className="border-0">Department Name</th>
+                      <th className="border-0">Faculty ID</th>
+                      <th className="border-0">Date/Time Created</th>
+                      <th className="border-0">Creator ID</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Minerva Hooper</td>
+                      <td>Department</td>
 
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
+                      <td>Faculty</td>
+                      <td>Date and Time</td>
+                      <td>Creator</td>
                     </tr>
                   </tbody>
                 </Table>

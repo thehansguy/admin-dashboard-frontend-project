@@ -22,63 +22,74 @@ function TableList() {
             <Card className="strpied-tabled-with-hover">
               <Card.Header>
                 <Card.Title as="h4">Fees View Mode</Card.Title>
-                <p className="card-category">
-                  Here is a subtitle for this table
-                </p>
               </Card.Header>
               <Card.Body className="table-full-width table-responsive px-0">
                 <Table className="table-hover table-striped">
                   <thead>
                     <tr>
                       <th className="border-0">ID</th>
-                      <th className="border-0">Name</th>
-                      <th className="border-0">Fees</th>
-                      <th className="border-0">Country</th>
-                      <th className="border-0">City</th>
+                      <th className="border-0">Fee Amount</th>
+                      <th className="border-0">Department ID</th>
+                      <th className="border-0">Fee type</th>
+                      <th className="border-0">Level</th>
+                      <th className="border-0">Date/Time Created</th>
+                      <th className="border-0">Creator ID</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Dakota Rice</td>
                       <td>GH¢36,738</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
+                      <td>8</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Minerva Hooper</td>
-                      <td>GH¢23,789</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
+                      <td>GH¢36,738</td>
+                      <td>3</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Sage Rodriguez</td>
-                      <td>GH¢56,142</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
+                      <td>GH¢36,738</td>
+                      <td>5</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>Philip Chaney</td>
-                      <td>GH¢38,735</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
+                      <td>GH¢36,738</td>
+                      <td>2</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                     <tr>
                       <td>5</td>
-                      <td>Doris Greene</td>
-                      <td>GH¢63,542</td>
-                      <td>Malawi</td>
-                      <td>Feldkirchen in Kärnten</td>
+                      <td>GH¢36,738</td>
+                      <td>7</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                     <tr>
                       <td>6</td>
-                      <td>Mason Porter</td>
-                      <td>GH¢78,615</td>
-                      <td>Chile</td>
-                      <td>Gloucester</td>
+                      <td>GH¢36,738</td>
+                      <td>4</td>
+                      <td>Type1</td>
+                      <td>2</td>
+                      <td>DateTime</td>
+                      <td>5</td>
                     </tr>
                   </tbody>
                 </Table>

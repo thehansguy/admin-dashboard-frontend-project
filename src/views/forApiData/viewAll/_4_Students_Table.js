@@ -22,57 +22,34 @@ function TableList() {
             <Card className="strpied-tabled-with-hover">
               <Card.Header>
                 <Card.Title as="h4">Students View Mode</Card.Title>
-                <p className="card-category">
-                  Here is a subtitle for this table
-                </p>
               </Card.Header>
               <Card.Body className="table-full-width table-responsive px-0">
                 <Table className="table-hover table-striped">
                   <thead>
                     <tr>
                       <th className="border-0">ID</th>
-                      <th className="border-0">Name</th>
+                      <th className="border-0">Student ID</th>
+                      <th className="border-0">Student Email</th>
+                      <th className="border-0">Student Pin/Password</th>
+                      <th className="border-0">Admission Reference ID</th>
+                      <th className="border-0">Level ID</th>
+                      <th className="border-0">Department ID</th>
 
-                      <th className="border-0">Country</th>
-                      <th className="border-0">City</th>
+                      <th className="border-0">Date/Time Created</th>
+                      <th className="border-0">Creator ID</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Dakota Rice</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Minerva Hooper</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Sage Rodriguez</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Philip Chaney</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Doris Greene</td>
-                      <td>Malawi</td>
-                      <td>Feldkirchen in Kärnten</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Mason Porter</td>
-                      <td>Chile</td>
-                      <td>Gloucester</td>
+                      <td>Student</td>
+                      <td>student@uni.com</td>
+                      <td>PIN</td>
+                      <td>Admission Reference ID</td>
+                      <td>Level ID</td>
+                      <td>Department ID</td>
+                      <td>Date/Time Created</td>
+                      <td>Creator ID</td>
                     </tr>
                   </tbody>
                 </Table>
