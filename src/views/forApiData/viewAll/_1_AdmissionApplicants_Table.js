@@ -115,7 +115,7 @@ const TableList = () => {
                 <_2_AcademicInfo_Entry />
               )}
             </Tab>
-            <Tab eventKey="sponsors" title="Sponsors">
+            <Tab eventKey="sponsors" title="Sponsor's Info">
               {!isEdit ? <_3_Sponsors_ViewSingle /> : <_3_Sponsors_Entry />}
             </Tab>
             <Tab eventKey="attached-documents" title="Attached Documents">
