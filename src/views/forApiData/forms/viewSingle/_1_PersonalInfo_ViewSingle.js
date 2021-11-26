@@ -253,13 +253,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
             placeholder="placeholder"
             disabled
             value="value"
-          />{" "}
-          <Form.Control
-            type="text"
-            name="userId"
-            placeholder="placeholder"
-            disabled
-            value="value"
           />
         </Form.Group>
 
