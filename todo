@@ -6,10 +6,11 @@
 6. Setup add new applicant button/function
 7. validate form -
 8. Setup view, edit, delete and add new linking - edit done
-9. Setup a data table that allows pagination and sorting for dashboard tables - done but no sorting or pagination because of edit button in cell issue
-10. correct dashboard photos
-11. fix table header columns
-12. fix form view/edit data with correct data fields
+9. Setup a data table that allows pagination and sorting for dashboard tables - done 
+            but no sorting or pagination because of edit button in cell issue
+10. correct dashboard photos - kinda done
+11. fix table header columns - done
+12. fix form view/edit data with correct data fields - view done not forms
 13. fix favicon
 
 Special Requests
