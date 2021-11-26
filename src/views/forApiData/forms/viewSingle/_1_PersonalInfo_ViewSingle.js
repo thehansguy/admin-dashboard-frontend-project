@@ -35,7 +35,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -47,7 +46,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="title"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -60,7 +58,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="body"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -72,7 +69,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -85,7 +81,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -97,7 +92,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -110,7 +104,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -122,7 +115,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -134,35 +126,35 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
       <strong>Permanent Address</strong>
 
       <br />
-      <Form.Group className="mb-3" controlId="formGridAddress1">
-        <Form.Label>Street Address</Form.Label>
-        <Form.Control
-          type="text"
-          name="userId"
-          onChange={handleChange}
-          placeholder="placeholder"
-          disabled
-          value="value"
-        />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formGridAddress2">
-        <Form.Label>Street Address 2</Form.Label>
-        <Form.Control
-          type="text"
-          name="userId"
-          onChange={handleChange}
-          placeholder="placeholder"
-          disabled
-          value="value"
-        />
-      </Form.Group>
+      <Row className="mb-3">
+        <Form.Group className="mb-3" controlId="formGridAddress1">
+          <Form.Label>Street Address</Form.Label>
+          <Form.Control
+            type="text"
+            name="userId"
+            placeholder="placeholder"
+            disabled
+            value="value"
+          />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formGridAddress2">
+          <Form.Label>Street Address 2</Form.Label>
+          <Form.Control
+            type="text"
+            name="userId"
+            placeholder="placeholder"
+            disabled
+            value="value"
+          />
+        </Form.Group>
+      </Row>
+
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label>City</Form.Label>
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -174,7 +166,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -187,7 +178,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -199,7 +189,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -209,35 +198,35 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
       <hr />
       <strong>Current Address</strong>
       <br />
-      <Form.Group className="mb-3" controlId="formGridAddress1">
-        <Form.Label>Street Address</Form.Label>
-        <Form.Control
-          type="text"
-          name="userId"
-          onChange={handleChange}
-          placeholder="placeholder"
-          disabled
-          value="value"
-        />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formGridAddress2">
-        <Form.Label>Street Address 2</Form.Label>
-        <Form.Control
-          type="text"
-          name="userId"
-          onChange={handleChange}
-          placeholder="placeholder"
-          disabled
-          value="value"
-        />
-      </Form.Group>
+      <Row className="mb-3">
+        <Form.Group className="mb-3" controlId="formGridAddress1">
+          <Form.Label>Street Address</Form.Label>
+          <Form.Control
+            type="text"
+            name="userId"
+            placeholder="placeholder"
+            disabled
+            value="value"
+          />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formGridAddress2">
+          <Form.Label>Street Address 2</Form.Label>
+          <Form.Control
+            type="text"
+            name="userId"
+            placeholder="placeholder"
+            disabled
+            value="value"
+          />
+        </Form.Group>
+      </Row>
+
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label>City</Form.Label>
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -249,7 +238,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -262,7 +250,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -270,7 +257,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -282,7 +268,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -298,7 +283,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -309,7 +293,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -320,7 +303,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -336,7 +318,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -347,7 +328,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -358,7 +338,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -376,7 +355,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
@@ -388,7 +366,6 @@ function Form1AdmissionApplicants_1_PersonalInfo({ setModalStatus }) {
           <Form.Control
             type="text"
             name="userId"
-            onChange={handleChange}
             placeholder="placeholder"
             disabled
             value="value"
