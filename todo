@@ -8,10 +8,11 @@
 8. Setup view, edit, delete and add new linking - edit done
 9. Setup a data table that allows pagination and sorting for dashboard tables - done 
             but no sorting or pagination because of edit button in cell issue
-10. correct dashboard photos - kinda done
+10. correct dashboard photos -  done
 11. fix table header columns - done
 12. fix form view/edit data with correct data fields - view done not forms
 13. fix favicon
+14. Fix page links - done
 
 Special Requests
 

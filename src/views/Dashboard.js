@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // react-bootstrap components
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -15,25 +16,39 @@ function Dashboard() {
       <Container fluid>
         <Row>
           <Col md="3">
-            <AdmissionsLinkCard />
+            <Link to="/admin/admission-applicants">
+              <AdmissionsLinkCard />
+            </Link>
           </Col>
           <Col md="3">
-            <FeesLinkCard />
+            <Link to="/admin/fees">
+              <FeesLinkCard />
+            </Link>
           </Col>
 
           <Col md="3">
-            <DepartmentsLinkCard />
+            <Link to="/admin/departments">
+              <DepartmentsLinkCard />
+            </Link>
           </Col>
 
           <Col md="3">
-            <StudentsLinkCard />
+            <Link to="/admin/students">
+              <StudentsLinkCard />
+            </Link>
           </Col>
+
           <Col md="3">
-            <StaffLinkCard />
+            <Link to="/admin/academic-calendar">
+              <AcademicCalendarLinkCard />
+            </Link>
           </Col>
-          <Col md="3">
-            <AcademicCalendarLinkCard />
-          </Col>
+
+          {/* <Col md="3">
+            <Link to="">
+              <StaffLinkCard />
+            </Link>
+          </Col> */}
         </Row>
       </Container>
     </>

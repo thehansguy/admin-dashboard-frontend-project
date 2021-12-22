@@ -71,13 +71,13 @@ const dashboardRoutes = [
     component: _4_Students_Table,
     layout: "/admin",
   },
-  {
-    path: "/user",
-    name: "Account",
-    icon: "fas fa-user-tie",
-    component: UserProfile,
-    layout: "/admin",
-  },
+  // {
+  //   path: "/user",
+  //   name: "Account",
+  //   icon: "fas fa-user-tie",
+  //   component: UserProfile,
+  //   layout: "/admin",
+  // },
 ];
 
 export default dashboardRoutes;

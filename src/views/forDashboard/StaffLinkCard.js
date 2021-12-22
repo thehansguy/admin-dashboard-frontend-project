@@ -12,9 +12,7 @@ const StaffLinkCard = () => (
       <Card.Title>Staff</Card.Title>
       <Card.Text>- Add/Update, Payroll, Assign Courses</Card.Text>
 
-      <Link to="/   ">
-        <Button variant="success">View Staff</Button>
-      </Link>
+      <Button variant="success">View Staff</Button>
     </Card.Body>
   </Card>
 );

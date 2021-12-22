@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Card, Button } from "react-bootstrap";
 
 const StudentsLinkCard = () => (
@@ -12,9 +12,7 @@ const StudentsLinkCard = () => (
       <Card.Title>Students</Card.Title>
       <Card.Text>- Update Info, Fees Due, Add/Update Grades</Card.Text>
 
-      <Link to="/   ">
-        <Button variant="success">View Students</Button>
-      </Link>
+      <Button variant="success">View Students</Button>
     </Card.Body>
   </Card>
 );
