@@ -43,9 +43,9 @@ function Sidebar({ color, image, routes }) {
               <img src={require("assets/img/logo.jpg").default} alt="..." />
             </div>
           </a>
-          <a className="simple-text" href="#">
+          {/* <a className="simple-text" href="#">
             School Management System
-          </a>
+          </a> */}
         </div>
         <Nav>
           {routes.map((prop, key) => {
