@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Card, Button } from "react-bootstrap";
 
 const AcademicCalendarLinkCard = () => (
@@ -12,9 +12,7 @@ const AcademicCalendarLinkCard = () => (
       <Card.Title>Academic Calendar</Card.Title>
       <Card.Text>- Update Info, Fees Due, Add/Update Grades</Card.Text>
 
-      <Link to="/   ">
-        <Button variant="success">View Academic Calendar</Button>
-      </Link>
+      <Button variant="success">View Academic Calendar</Button>
     </Card.Body>
   </Card>
 );
