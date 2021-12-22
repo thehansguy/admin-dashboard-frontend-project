@@ -81,7 +81,7 @@ function Header() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-
+          {/* 
           <Nav className="ml-auto" navbar>
             <Nav.Item>
               <Nav.Link
@@ -92,7 +92,7 @@ function Header() {
                 <span className="no-icon">Log out</span>
               </Nav.Link>
             </Nav.Item>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
